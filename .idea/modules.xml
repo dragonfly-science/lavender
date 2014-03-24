@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/lavender.iml" filepath="$PROJECT_DIR$/.idea/lavender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/.idea/lavender-tests.iml" filepath="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/.idea/lavender-tests.iml" />
     </modules>
   </component>
 </project>

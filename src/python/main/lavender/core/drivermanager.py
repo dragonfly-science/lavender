@@ -3,6 +3,8 @@ __author__ = 'lewis'
 import testingsession
 
 from utils import new_dict_if_none
+from browserstack import BrowserStackAccountProperties
+
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium import webdriver
 
@@ -15,7 +17,8 @@ def local_chrome_driver(caps=None):
     return driver
 
 
-def browser_stack_driver(browser_stack_account_properties, operating_system, browser, desired_caps=None):
+def browser_stack_driver(operating_system, browser, desired_caps=None):
+    browser_stack_account_properties = BrowserStackAccountProperties.get()
     platform_caps = operating_system.set_capabilities()
     browser.set_capabilities(platform_caps)
     return _web_driver_for(browser_stack_account_properties, platform_caps, desired_caps)

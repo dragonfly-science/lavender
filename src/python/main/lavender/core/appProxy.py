@@ -1,8 +1,8 @@
 __author__ = 'lewis'
 
-import copy
-from summarystatistics import SummaryStatistics
 from interactionrecord import InteractionRecordSet
+import testingsession
+import seleniumwrapper
 
 
 class AppProxy:
@@ -19,7 +19,8 @@ class AppProxy:
         pass
 
     def disconnect(self):
-        if self._driver is not None: self._driver.quit()
+        if self._driver is not None:
+            self._driver.quit()
 
     def start_new_timer(self, name):
         return self._interaction_record_set.new_timer(name)
@@ -34,3 +35,7 @@ class AppProxy:
 
     def calculate_stats(self, interaction_name):
         return self._interaction_record_set.calculate_stats(interaction_name)
+
+    def wait_for_element_by_xpath_to_have_text(self, xpath, text):
+        max_wait = testingsession.max_wait()
+        seleniumwrapper.wait_for_element_by_xpath_to_have_test(self.driver, xpath, text, max_wait)

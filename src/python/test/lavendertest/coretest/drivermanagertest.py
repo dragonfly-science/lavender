@@ -1,7 +1,7 @@
 __author__ = 'lewis'
 
 import unittest
-import lavender.core.testingsession
+import os
 
 from lavender.core.drivermanager import local_chrome_driver
 from lavender.core.drivermanager import browser_stack_driver
@@ -9,6 +9,7 @@ from lavender.core.browserstack import BrowserStackAccountProperties
 from lavender.core.operatingSystem import Windows7
 from lavender.core.browser import IE8
 from lavender.core import testingsession
+from lavender.core.errors import LavenderError
 
 
 class MyTestCase(unittest.TestCase):
@@ -28,8 +29,7 @@ class MyTestCase(unittest.TestCase):
         testingsession.set_max_wait(10)
         caps = testingsession.update_capabilities()
 
-        props = BrowserStackAccountProperties("lewiswalker", "py3FYbBbkr2pdF3dD3wL")
-        driver = browser_stack_driver(props, Windows7, IE8)
+        driver = browser_stack_driver(Windows7, IE8)
         driver.quit()
 
 if __name__ == '__main__':

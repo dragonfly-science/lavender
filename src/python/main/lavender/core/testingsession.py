@@ -30,3 +30,6 @@ def update_capabilities(caps=None):
     caps = new_dict_if_none(caps)
     caps.update(_props)
     return caps
+
+def max_wait():
+    return _props["max_wait"]
