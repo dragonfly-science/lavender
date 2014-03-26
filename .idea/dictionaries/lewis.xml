@@ -3,9 +3,12 @@
     <words>
       <w>browserstack</w>
       <w>mainview</w>
+      <w>nologcapture</w>
+      <w>nosetests</w>
       <w>samsung</w>
       <w>sectorial</w>
       <w>webrear</w>
+      <w>xunit</w>
     </words>
   </dictionary>
 </component>

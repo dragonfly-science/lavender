@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='lavender',
@@ -10,5 +10,5 @@ setup(
     author='lewis',
     author_email='',
     description='',
-    requires='selenium'
+    install_requires=['selenium']
 )
