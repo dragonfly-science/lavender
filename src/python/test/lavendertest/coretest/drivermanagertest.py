@@ -9,7 +9,7 @@ from lavender.core.browserstack import BrowserStackAccountProperties
 from lavender.core.operatingSystem import Windows7
 from lavender.core.browser import IE8
 from lavender.core import testingsession
-from lavender.core.errors import LavenderError
+from lavender.core.platformconfig import BrowserPlatformConfig
 
 
 class MyTestCase(unittest.TestCase):
@@ -28,8 +28,7 @@ class MyTestCase(unittest.TestCase):
         testingsession.set_is_debug(True)
         testingsession.set_max_wait(10)
         caps = testingsession.update_capabilities()
-
-        driver = browser_stack_driver(Windows7, IE8)
+        driver = browser_stack_driver(BrowserPlatformConfig(Windows7, IE8))
         driver.quit()
 
 if __name__ == '__main__':

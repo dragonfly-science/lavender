@@ -10,7 +10,3 @@ class MyTestCase(unittest.TestCase):
         url = props.to_url()
 
         self.assertEquals(url, "http://fredbloggs:publickeystring@hub.browserstack.com/wd/hub")
-
-
-if __name__ == '__main__':
-    unittest.main()

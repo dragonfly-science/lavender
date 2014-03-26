@@ -7,3 +7,8 @@ class LavenderError(Exception):
 
     def __str__(self):
         return repr(self.msg)
+
+
+class LavenderTimeoutError(LavenderError):
+    def __init__(self, msg):
+        LavenderError.__init__(self, msg)

@@ -2,34 +2,40 @@ __author__ = 'lewis'
 
 import testingsession
 
-from utils import new_dict_if_none
 from browserstack import BrowserStackAccountProperties
+from platformconfig import BrowserPlatformConfig, MobilePlatformConfig, LocalChromeConfig
 
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium import webdriver
 
 
-def local_chrome_driver(caps=None):
-    caps = new_dict_if_none(caps)
+def local_chrome_driver(platform_config):
+    caps = platform_config.set_capabilities()
     full_caps = DesiredCapabilities.CHROME.copy().update(caps)
     driver = webdriver.Chrome(executable_path="/usr/bin/ChromeDriver", desired_capabilities=full_caps)
 
     return driver
 
 
-def browser_stack_driver(operating_system, browser, desired_caps=None):
+def browser_stack_driver(platform_config):
     browser_stack_account_properties = BrowserStackAccountProperties.get()
-    platform_caps = operating_system.set_capabilities()
-    browser.set_capabilities(platform_caps)
-    return _web_driver_for(browser_stack_account_properties, platform_caps, desired_caps)
+    platform_caps = platform_config.set_capabilities()
+    return _web_driver_for(browser_stack_account_properties, platform_caps)
 
 
-def _web_driver_for(browser_stack_account_properties, platform_caps, desired_caps):
+def driver_for_config(platform_config):
+    generator_fn = None
+
+    if isinstance(platform_config, LocalChromeConfig):
+        generator_fn = local_chrome_driver
+    else:
+        generator_fn = browser_stack_driver
+
+    return generator_fn(platform_config)
+
+
+def _web_driver_for(browser_stack_account_properties, platform_caps):
     full_caps = platform_caps.copy()
-
-    if not desired_caps is None:
-        full_caps.update(desired_caps)
-
     testingsession.update_capabilities(full_caps)
 
     url = browser_stack_account_properties.to_url()

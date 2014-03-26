@@ -1,7 +1,8 @@
 __author__ = 'lewis'
 
 import os
-from lavender.core.errors import LavenderError
+from errors import LavenderError
+import callarguments
 
 
 class BrowserStackAccountProperties:
@@ -15,13 +16,22 @@ class BrowserStackAccountProperties:
 
     @classmethod
     def get(cls):
-        browser_stack_username = os.environ.get('BROWSER_STACK_USERNAME')
-        browser_stack_password = os.environ.get('BROWSER_STACK_PASSWORD')
+        browser_stack_username = callarguments.get("bs_username")
+        if browser_stack_username is None:
+            browser_stack_username = os.environ.get('BROWSER_STACK_USERNAME')
+
+        browser_stack_password = callarguments.get("bs_password")
+        if browser_stack_password is None:
+            browser_stack_password = os.environ.get('BROWSER_STACK_PASSWORD')
 
         if browser_stack_username is None:
-            raise LavenderError("Environment variable 'BROWSER_STACK_USERNAME' must be set")
+            raise LavenderError(
+                "Browser Stack username must be set through either the Environment variable "
+                "'BROWSER_STACK_USERNAME' or via the command line option --bs_username")
 
         if browser_stack_password is None:
-            raise LavenderError("Environment variable 'BROWSER_STACK_PASSWORD' must be set")
+            raise LavenderError(
+                "Browser Stack password must be set through either the Environment variable "
+                "'BROWSER_STACK_PASSWORD' or via the command line option --bs_password")
 
         return BrowserStackAccountProperties(browser_stack_username, browser_stack_password)
