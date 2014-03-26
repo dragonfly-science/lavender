@@ -47,14 +47,4 @@ class AppProxy:
 
     def wait_for_element_by_xpath_to_have_text(self, xpath, text):
         max_wait = testingsession.max_wait()
-
-        try:
-            seleniumwrapper.wait_for_element_by_xpath_to_have_text(self.driver, xpath, text, max_wait)
-        except TimeoutException:
-            element = seleniumwrapper.find_element_by_xpath(self.driver, xpath)
-            if element is None:
-                raise LavenderTimeoutError("Unable to find element specified by xpath '{}'".format(xpath))
-            else:
-                raise LavenderError(
-                    "Expected element specified by xpath '{}' to contain '{}' but instead found '{}'"
-                    .format(xpath, text, element.text))
+        seleniumwrapper.wait_for_element_by_xpath_to_have_text(self.driver, xpath, text, max_wait)

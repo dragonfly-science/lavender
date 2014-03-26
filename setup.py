@@ -9,5 +9,6 @@ setup(
     license='',
     author='lewis',
     author_email='',
-    description=''
+    description='',
+    requires='selenium'
 )
