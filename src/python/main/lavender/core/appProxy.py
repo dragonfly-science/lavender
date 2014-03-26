@@ -5,17 +5,16 @@ import platformconfig
 import testingsession
 import seleniumwrapper
 from drivermanager import driver_for_config
-from selenium.common.exceptions import TimeoutException
-from errors import LavenderError, LavenderTimeoutError
 
 
 class AppProxy:
 
     def __init__(self):
         self._interaction_record_set = InteractionRecordSet()
+        test_session = testingsession.current_session()
 
-        if not testingsession.platform_config_name() is None:
-            config_name = testingsession.platform_config_name()
+        if not test_session.platform_config_name is None:
+            config_name = test_session.platform_config_name
             if not config_name is None:
                 config = platformconfig.get_config(config_name)
                 self._driver = driver_for_config(config)
@@ -46,5 +45,6 @@ class AppProxy:
         return self._interaction_record_set.calculate_stats(interaction_name)
 
     def wait_for_element_by_xpath_to_have_text(self, xpath, text):
-        max_wait = testingsession.max_wait()
+        test_session = testingsession.current_session()
+        max_wait = test_session.max_wait
         seleniumwrapper.wait_for_element_by_xpath_to_have_text(self.driver, xpath, text, max_wait)
