@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d2d5f4d-a337-47fc-8e79-9cfd392a3295" name="Default" comment="More enhancements">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/appProxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/browser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/browserstack.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/callarguments.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/capabilities.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/drivermanager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/errors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/interactionrecord.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/interactiontimer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/mobileDevice.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/mobilePlatform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/operatingSystem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/platformconfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/seleniumwrapper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/summarystatistics.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/testingsession.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/coretest/testbrowserstack.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/coretest/testcapabilities.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/coretest/testdrivermanager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/coretest/testingsessiontest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/coretest/testinteractionrecordset.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/coretest/testinteractiontimer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/coretest/testsummarystatistics.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/coretest/__init__.py" afterPath="$PROJECT_DIR$/lavender/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
+    </list>
+    <ignored path="lavender.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="lavender" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="webrearproxy.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/webrearproxy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="87" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+              <folding>
+                <element signature="e#22#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datavalidationtest.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/datavalidationtest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="603" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
+              <folding>
+                <element signature="e#22#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataloadtest.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/dataloadtest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="61" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.54112554" vertical-offset="0" max-vertical-offset="810">
+              <folding>
+                <element signature="e#22#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seleniumwrapper.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lavender/core/seleniumwrapper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="5" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="summarystatistics.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lavender/core/summarystatistics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testingsession.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lavender/core/testingsession.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="5" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lavender/core/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="callarguments.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lavender/core/callarguments.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="41" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1365">
+              <folding>
+                <element signature="e#22#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="164" column="28" selection-start="5706" selection-end="5706" vertical-scroll-proportion="0.0" vertical-offset="2214" max-vertical-offset="3735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="platformconfig.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lavender/core/platformconfig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="5" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Lewis" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/python/test/lavendertest/__init__.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/utils.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/utilstest.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/dataloadtest.py" />
+        <option value="$PROJECT_DIR$/src/python/main/lavender/core/__init__.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/webrearproxy.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/data.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/datavalidationtest.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/__init__.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/utilstest.py" />
+        <option value="$PROJECT_DIR$/src/python/main/lavender/core/browserstack.py" />
+        <option value="$PROJECT_DIR$/src/python/test/lavendertest/coretest/browserstacktest.py" />
+        <option value="$PROJECT_DIR$/src/python/test/lavendertest/coretest/drivermanagertest.py" />
+        <option value="$PROJECT_DIR$/src/python/main/lavender/core/drivermanager.py" />
+        <option value="$PROJECT_DIR$/src/python/main/lavender/core/platformconfig.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/__init__.py" />
+        <option value="$PROJECT_DIR$/src/python/main/lavender/core/seleniumwrapper.py" />
+        <option value="$PROJECT_DIR$/src/python/main/lavender/core/errors.py" />
+        <option value="$PROJECT_DIR$/src/python/main/lavender/core/appProxy.py" />
+        <option value="$PROJECT_DIR$/src/python/main/lavender/core/callarguments.py" />
+        <option value="$PROJECT_DIR$/src/python/main/lavender/core/testingsession.py" />
+        <option value="$PROJECT_DIR$/test/lavendertest/coretest/interactionrecordsettest.py" />
+        <option value="$PROJECT_DIR$/core/__init__.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/test/coretest/testsummarystatistics.py" />
+        <option value="$PROJECT_DIR$/test/coretest/testinteractiontimer.py" />
+        <option value="$PROJECT_DIR$/test/coretest/testdrivermanager.py" />
+        <option value="$PROJECT_DIR$/core/drivermanager.py" />
+        <option value="$PROJECT_DIR$/nose.cfg" />
+        <option value="$PROJECT_DIR$/test/coretest/testingsessiontest.py" />
+        <option value="$PROJECT_DIR$/core/callarguments.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/web-rear-test.py" />
+        <option value="$PROJECT_DIR$/core/testingsession.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/datavalidationtest.py" />
+        <option value="$PROJECT_DIR$/lavender/core/appProxy.py" />
+        <option value="$PROJECT_DIR$/lavender/core/browser.py" />
+        <option value="$PROJECT_DIR$/lavender/core/browserstack.py" />
+        <option value="$PROJECT_DIR$/lavender/core/capabilities.py" />
+        <option value="$PROJECT_DIR$/lavender/core/drivermanager.py" />
+        <option value="$PROJECT_DIR$/lavender/core/interactionrecord.py" />
+        <option value="$PROJECT_DIR$/lavender/core/mobileDevice.py" />
+        <option value="$PROJECT_DIR$/lavender/core/mobilePlatform.py" />
+        <option value="$PROJECT_DIR$/lavender/core/operatingSystem.py" />
+        <option value="$PROJECT_DIR$/lavender/core/platformconfig.py" />
+        <option value="$PROJECT_DIR$/lavender/core/seleniumwrapper.py" />
+        <option value="$PROJECT_DIR$/lavender/core/testingsession.py" />
+        <option value="$PROJECT_DIR$/lavender/core/callarguments.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/data.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/webrearproxy.py" />
+        <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/dataloadtest.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1665" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender-tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coretest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lavender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lavender" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/src/python/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.web-rear-test">
+    <configuration default="false" name="Unittests in datavalidationtest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lavender-tests" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/datavalidationtest.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lavender-tests" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/datavalidationtest.py" />
+      <option name="CLASS_NAME" value="MyTestCase" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in drivermanagertest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python/test/lavendertest/coretest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lavender" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python/test/lavendertest/coretest/drivermanagertest.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="web-rear-test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lavender-tests" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/web-rear-test.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in datavalidationtest (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lavender-tests" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/datavalidationtest.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lavender" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lavender" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lavender" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lavender" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lavender" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lavender" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="__init__" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lavender" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in datavalidationtest" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in MyTestCase" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in drivermanagertest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.web-rear-test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in datavalidationtest (1)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.web-rear-test" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in datavalidationtest (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in drivermanagertest" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in datavalidationtest" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in MyTestCase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d2d5f4d-a337-47fc-8e79-9cfd392a3295" name="Default" comment="" />
+      <created>1395186562771</created>
+      <updated>1395186562771</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First cut of Python Selenium testing wrapper">
+      <created>1395609191428</created>
+      <updated>1395609191429</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Enhancements to support first testing project">
+      <created>1395631843401</created>
+      <updated>1395631843401</updated>
+    </task>
+    <task id="LOCAL-00003" summary="More enhancements">
+      <created>1395802238908</created>
+      <updated>1395802238908</updated>
+    </task>
+    <task id="LOCAL-00004" summary="More enhancements">
+      <created>1395806811014</created>
+      <updated>1395806811014</updated>
+    </task>
+    <task id="LOCAL-00005" summary="More enhancements">
+      <created>1395809127063</created>
+      <updated>1395809127063</updated>
+    </task>
+    <task id="LOCAL-00006" summary="More enhancements">
+      <created>1395876304547</created>
+      <updated>1395876304547</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Modified project folder structure to make pythonic and fixed tests">
+      <created>1395884361994</created>
+      <updated>1395884361994</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed setup.py to include dependencies properly">
+      <created>1395884500448</created>
+      <updated>1395884500448</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1665" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24186991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24204852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2550813" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33891213" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="First cut of Python Selenium testing wrapper" />
+    <MESSAGE value="Enhancements to support first testing project" />
+    <MESSAGE value="More enhancements" />
+    <MESSAGE value="Modified project folder structure to make pythonic and fixed tests" />
+    <MESSAGE value="Fixed setup.py to include dependencies properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed setup.py to include dependencies properly" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/datavalidationtest.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="28" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/lib/python2.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="326" column="0" selection-start="10783" selection-end="10783" vertical-scroll-proportion="0.33333334" vertical-offset="4527" max-vertical-offset="15990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/utilstest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="37" selection-start="282" selection-end="282" vertical-scroll-proportion="0.17064847" vertical-offset="0" max-vertical-offset="879">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2212" column="8" selection-start="75678" selection-end="75678" vertical-scroll-proportion="29.06057" vertical-offset="8711" max-vertical-offset="76080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="531">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/test/coretest/testbrowserstack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/test/coretest/testdrivermanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding>
+            <element signature="e#22#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="30" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/test/coretest/testingsessiontest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="47" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <folding>
+            <marker date="1395884265061" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1395884265061" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib.linux-x86_64-2.7/core/testingsession.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="29" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib.linux-x86_64-2.7/core/callarguments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1533" column="0" selection-start="60527" selection-end="60527" vertical-scroll-proportion="0.0" vertical-offset="21445" max-vertical-offset="22125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/argparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1687" column="0" selection-start="60561" selection-end="60561" vertical-scroll-proportion="0.0" vertical-offset="24974" max-vertical-offset="35190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/webrear_tests.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/test/coretest/testinteractiontimer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/test/coretest/testinteractionrecordset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/test/coretest/testsummarystatistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="25" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="705">
+          <folding>
+            <element signature="e#22#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="531">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/lavender-1.0-py2.7.egg/lavender/core/testingsession.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/test/coretest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="879">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/web-rear-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="35" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding>
+            <element signature="e#22#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/appProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="15" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <folding>
+            <element signature="e#22#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/browserstack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="5" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/capabilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/drivermanager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/errors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="41" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/interactionrecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/interactiontimer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/mobileDevice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/mobilePlatform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/operatingSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/platformconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/seleniumwrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/summarystatistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/testingsession.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="5" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/core/callarguments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1365">
+          <folding>
+            <element signature="e#22#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="28" selection-start="5706" selection-end="5706" vertical-scroll-proportion="0.0" vertical-offset="2214" max-vertical-offset="3735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/webrearproxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="87" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+          <folding>
+            <element signature="e#22#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/datavalidationtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="603" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
+          <folding>
+            <element signature="e#22#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/dataloadtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="61" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.54112554" vertical-offset="0" max-vertical-offset="810">
+          <folding>
+            <element signature="e#22#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

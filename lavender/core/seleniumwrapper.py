@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 
-from core.errors import LavenderError, LavenderTimeoutError
+from errors import LavenderError, LavenderTimeoutError
 
 
 def wait_for_element_by_xpath_to_have_text(driver, xpath, text, timeout):

@@ -5,7 +5,7 @@ from selenium import webdriver
 
 import testingsession
 from browserstack import BrowserStackAccountProperties
-from core.platformconfig import LocalChromeConfig
+from platformconfig import LocalChromeConfig
 
 
 def local_chrome_driver(platform_config):

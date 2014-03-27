@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='lavender',
     version='1.0',
-    packages=['', 'core', 'test.coretest'],
+    packages=['lavender', 'lavender.core', 'lavender.test', 'lavender.test.coretest'],
     url='',
     license='',
     author='lewis',

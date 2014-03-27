@@ -3,7 +3,7 @@ __author__ = 'lewis'
 from sys import argv
 import argparse
 
-from core.platformconfig import advertised_configs
+from platformconfig import advertised_configs
 
 
 _arguments = None
@@ -11,6 +11,7 @@ _parser = None
 
 
 def get(name):
+    global _arguments
     return None if not hasattr(_arguments, name) else getattr(_arguments, name)
 
 

@@ -2,7 +2,7 @@ __author__ = 'lewis'
 
 import nose
 
-from core.platformconfig import advertise_config
+from platformconfig import advertise_config
 from utils import new_dict_if_none
 import callarguments
 
@@ -65,7 +65,6 @@ class TestingSession:
         nose.run()
 
 
-# noinspection PyProtectedMember
 def new_session(project_name, build_name, configs):
     for name in configs:
         advertise_config(name, configs[name])
@@ -74,6 +73,5 @@ def new_session(project_name, build_name, configs):
     return TestingSession._the_instance
 
 
-# noinspection PyProtectedMember
 def current_session():
     return TestingSession._the_instance

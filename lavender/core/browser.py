@@ -1,6 +1,6 @@
 __author__ = 'lewis'
 
-from core.utils import new_dict_if_none
+from utils import new_dict_if_none
 
 
 class Browser:

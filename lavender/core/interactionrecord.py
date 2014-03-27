@@ -3,7 +3,7 @@ __author__ = 'lewis'
 import copy
 
 from interactiontimer import InteractionTimer
-from core.summarystatistics import SummaryStatistics
+from summarystatistics import SummaryStatistics
 
 
 class InteractionRecord:
