@@ -1,8 +1,10 @@
 __author__ = 'lewis'
 
-from interactiontimer import InteractionTimer
-from summarystatistics import SummaryStatistics
 import copy
+
+from interactiontimer import InteractionTimer
+from core.summarystatistics import SummaryStatistics
+
 
 class InteractionRecord:
 

@@ -1,10 +1,9 @@
+from core import platformconfig, seleniumwrapper, testingsession
+
 __author__ = 'lewis'
 
-from interactionrecord import InteractionRecordSet
-import platformconfig
-import testingsession
-import seleniumwrapper
-from drivermanager import driver_for_config
+from core.interactionrecord import InteractionRecordSet
+from core.drivermanager import driver_for_config
 
 
 class AppProxy:

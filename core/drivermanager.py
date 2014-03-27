@@ -1,12 +1,11 @@
 __author__ = 'lewis'
 
-import testingsession
-
-from browserstack import BrowserStackAccountProperties
-from platformconfig import BrowserPlatformConfig, MobilePlatformConfig, LocalChromeConfig
-
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium import webdriver
+
+import testingsession
+from browserstack import BrowserStackAccountProperties
+from core.platformconfig import LocalChromeConfig
 
 
 def local_chrome_driver(platform_config):
@@ -36,7 +35,8 @@ def driver_for_config(platform_config):
 
 def _web_driver_for(browser_stack_account_properties, platform_caps):
     full_caps = platform_caps.copy()
-    testingsession.update_capabilities(full_caps)
+    test_session = testingsession.current_session()
+    test_session.update_capabilities(full_caps)
 
     url = browser_stack_account_properties.to_url()
     driver = webdriver.Remote(command_executor=url, desired_capabilities=full_caps)

@@ -1,7 +1,8 @@
 __author__ = 'lewis'
 
 import os
-from errors import LavenderError
+
+from core.errors import LavenderError
 import callarguments
 
 
