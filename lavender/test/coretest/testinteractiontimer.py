@@ -3,7 +3,7 @@ __author__ = 'lewis'
 import unittest
 import time
 
-from core.interactiontimer import InteractionTimer
+from lavender.core.interactiontimer import InteractionTimer
 
 
 class MyTestCase(unittest.TestCase):

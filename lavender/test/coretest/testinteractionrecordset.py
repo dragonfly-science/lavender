@@ -3,7 +3,7 @@ __author__ = 'lewis'
 import unittest
 import time
 
-from core.interactionrecord import InteractionRecordSet
+from lavender.core.interactionrecord import InteractionRecordSet
 
 
 class MyTestCase(unittest.TestCase):

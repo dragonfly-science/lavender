@@ -2,12 +2,12 @@ __author__ = 'lewis'
 
 import unittest
 
-from core.drivermanager import local_chrome_driver
-from core.drivermanager import browser_stack_driver, driver_for_config
-from core.operatingSystem import Windows7
-from core.browser import IE8
-from core import testingsession
-from core.platformconfig import BrowserPlatformConfig, LocalChromeConfig
+from lavender.core.drivermanager import local_chrome_driver
+from lavender.core.drivermanager import browser_stack_driver, driver_for_config
+from lavender.core.operatingSystem import Windows7
+from lavender.core.browser import IE8
+from lavender.core import testingsession
+from lavender.core.platformconfig import BrowserPlatformConfig, LocalChromeConfig
 
 
 class MyTestCase(unittest.TestCase):

@@ -2,10 +2,10 @@ __author__ = 'lewis'
 
 import unittest
 
-from core.capabilities import add_args
-from core.capabilities import browser_stack_resolution
-from core.capabilities import chrome_start_maximised
-from core.capabilities import chrome_window_size
+from lavender.core.capabilities import add_args
+from lavender.core.capabilities import browser_stack_resolution
+from lavender.core.capabilities import chrome_start_maximised
+from lavender.core.capabilities import chrome_window_size
 
 
 class MyTestCase(unittest.TestCase):

@@ -2,7 +2,7 @@ __author__ = 'lewis'
 
 import unittest
 
-from core import testingsession
+from lavender.core import testingsession
 
 
 class MyTestCase(unittest.TestCase):

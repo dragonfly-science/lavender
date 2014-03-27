@@ -2,7 +2,7 @@ __author__ = 'lewis'
 
 import unittest
 
-from core.browserstack import BrowserStackAccountProperties
+from lavender.core.browserstack import BrowserStackAccountProperties
 
 
 class MyTestCase(unittest.TestCase):
