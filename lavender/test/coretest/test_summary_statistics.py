@@ -3,7 +3,7 @@ __author__ = 'lewis'
 from math import sqrt
 import unittest
 
-from lavender.core.summarystatistics import SummaryStatistics
+from lavender.core.summary_statistics import SummaryStatistics
 
 
 class MyTestCase(unittest.TestCase):

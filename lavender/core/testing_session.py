@@ -2,9 +2,9 @@ __author__ = 'lewis'
 
 import nose
 
-from platformconfig import advertise_config
+from platform_config import advertise_config
 from utils import new_dict_if_none
-import callarguments
+import call_arguments
 
 
 class TestingSession:
@@ -19,7 +19,7 @@ class TestingSession:
         self._max_wait = 15
         self._platform_config_name = None
 
-        callarguments.init(project_name)
+        call_arguments.init(project_name)
 
     def set_test_name(self, test_name):
         self._test_name = test_name
@@ -56,12 +56,12 @@ class TestingSession:
         if not self._platform_config_name is None:
             config_name = self._platform_config_name
         else:
-            config_name = callarguments.get("config")
+            config_name = call_arguments.get("config")
 
         return config_name
 
     def run(self):
-        callarguments.parse_args()
+        call_arguments.parse_args()
         nose.run()
 
 

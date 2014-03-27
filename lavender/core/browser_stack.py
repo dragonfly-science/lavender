@@ -3,7 +3,7 @@ __author__ = 'lewis'
 import os
 
 from errors import LavenderError
-import callarguments
+import call_arguments
 
 
 class BrowserStackAccountProperties:
@@ -17,11 +17,11 @@ class BrowserStackAccountProperties:
 
     @classmethod
     def get(cls):
-        browser_stack_username = callarguments.get("bs_username")
+        browser_stack_username = call_arguments.get("bs_username")
         if browser_stack_username is None:
             browser_stack_username = os.environ.get('BROWSER_STACK_USERNAME')
 
-        browser_stack_password = callarguments.get("bs_password")
+        browser_stack_password = call_arguments.get("bs_password")
         if browser_stack_password is None:
             browser_stack_password = os.environ.get('BROWSER_STACK_PASSWORD')
 

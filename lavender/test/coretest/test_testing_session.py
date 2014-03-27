@@ -2,18 +2,18 @@ __author__ = 'lewis'
 
 import unittest
 
-from lavender.core import testingsession
+from lavender.core import testing_session
 
 
 class MyTestCase(unittest.TestCase):
     def test_update_capabilities(self):
-        testingsession.new_session(
+        testing_session.new_session(
             "python_api",
             "0.1",
             {}
         )
 
-        test_session = testingsession.current_session()
+        test_session = testing_session.current_session()
         test_session.set_test_name("Testing Session Update Capabilities")
 
         test_session.set_is_debug(True)

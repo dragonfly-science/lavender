@@ -3,7 +3,7 @@ __author__ = 'lewis'
 from sys import argv
 import argparse
 
-from platformconfig import advertised_configs
+from platform_config import advertised_configs
 
 
 _arguments = None

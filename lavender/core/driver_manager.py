@@ -3,9 +3,9 @@ __author__ = 'lewis'
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium import webdriver
 
-import testingsession
-from browserstack import BrowserStackAccountProperties
-from platformconfig import LocalChromeConfig
+import testing_session
+from browser_stack import BrowserStackAccountProperties
+from platform_config import LocalChromeConfig
 
 
 def local_chrome_driver(platform_config):
@@ -35,7 +35,7 @@ def driver_for_config(platform_config):
 
 def _web_driver_for(browser_stack_account_properties, platform_caps):
     full_caps = platform_caps.copy()
-    test_session = testingsession.current_session()
+    test_session = testing_session.current_session()
     test_session.update_capabilities(full_caps)
 
     url = browser_stack_account_properties.to_url()
