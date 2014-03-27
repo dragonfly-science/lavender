@@ -1,10 +1,9 @@
-from setuptools import setup
+from distutils.core import setup
 
 setup(
     name='lavender',
-    version='0.1',
-    packages=['lavender', 'lavender.core'],
-    package_dir={'': 'src/python/main'},
+    version='1.0',
+    packages=['', 'core', 'test.coretest'],
     url='',
     license='',
     author='lewis',
