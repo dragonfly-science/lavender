@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d2d5f4d-a337-47fc-8e79-9cfd392a3295" name="Default" comment="More enhancements">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/appProxy.py" afterPath="$PROJECT_DIR$/lavender/core/app_proxy.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/browserstack.py" afterPath="$PROJECT_DIR$/lavender/core/browser_stack.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/callarguments.py" afterPath="$PROJECT_DIR$/lavender/core/call_arguments.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/drivermanager.py" afterPath="$PROJECT_DIR$/lavender/core/driver_manager.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/interactionrecord.py" afterPath="$PROJECT_DIR$/lavender/core/interaction_record.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/interactiontimer.py" afterPath="$PROJECT_DIR$/lavender/core/interaction_timer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/mobileDevice.py" afterPath="$PROJECT_DIR$/lavender/core/mobile_device.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/mobilePlatform.py" afterPath="$PROJECT_DIR$/lavender/core/mobile_platform.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/operatingSystem.py" afterPath="$PROJECT_DIR$/lavender/core/operating_system.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/platformconfig.py" afterPath="$PROJECT_DIR$/lavender/core/platform_config.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/seleniumwrapper.py" afterPath="$PROJECT_DIR$/lavender/core/selenium_wrapper.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/summarystatistics.py" afterPath="$PROJECT_DIR$/lavender/core/summary_statistics.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/core/testingsession.py" afterPath="$PROJECT_DIR$/lavender/core/testing_session.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/test/coretest/testbrowserstack.py" afterPath="$PROJECT_DIR$/lavender/test/coretest/test_browser_stack.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/test/coretest/testcapabilities.py" afterPath="$PROJECT_DIR$/lavender/test/coretest/test_capabilities.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/test/coretest/testdrivermanager.py" afterPath="$PROJECT_DIR$/lavender/test/coretest/test_driver_manager.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/test/coretest/testingsessiontest.py" afterPath="$PROJECT_DIR$/lavender/test/coretest/test_testing_session.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/test/coretest/testinteractionrecordset.py" afterPath="$PROJECT_DIR$/lavender/test/coretest/test_interaction_recordset.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/test/coretest/testinteractiontimer.py" afterPath="$PROJECT_DIR$/lavender/test/coretest/test_interaction_timer.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lavender/test/coretest/testsummarystatistics.py" afterPath="$PROJECT_DIR$/lavender/test/coretest/test_summary_statistics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.cfg" afterPath="$PROJECT_DIR$/setup.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lavender/test/__init__.py" />
     </list>
     <ignored path="lavender.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,13 +43,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_data_validation.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test_data_validation.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/test_data_validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.2094522" vertical-offset="225" max-vertical-offset="1365">
+            <state line="43" column="42" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="434" max-vertical-offset="1365">
               <folding>
                 <element signature="e#22#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lavender/test/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,17 +121,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_testing_session.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lavender/test/coretest/test_testing_session.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="41" selection-start="65" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-              <folding>
-                <element signature="e#22#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -161,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/python/main/lavender/core/__init__.py" />
         <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/webrearproxy.py" />
         <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/data.py" />
         <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/datavalidationtest.py" />
@@ -212,6 +189,7 @@
         <option value="$PROJECT_DIR$/lavender/core/browser_stack.py" />
         <option value="$PROJECT_DIR$/lavender/core/platform_config.py" />
         <option value="$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/webrearproxy.py" />
+        <option value="$PROJECT_DIR$/lavender/test/__init__.py" />
       </list>
     </option>
   </component>
@@ -318,28 +296,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coretest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lavender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lavender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lavender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1099,10 +1055,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../web-rear/web-rear-automation-tests/lavender-tests/test/test_data_validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.2094522" vertical-offset="225" max-vertical-offset="1365">
+        <state line="43" column="42" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="434" max-vertical-offset="1365">
           <folding>
             <element signature="e#22#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavender/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931">
+          <folding />
         </state>
       </provider>
     </entry>
