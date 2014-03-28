@@ -10,10 +10,18 @@ from platform_config import LocalChromeConfig
 
 def local_chrome_driver(platform_config):
     caps = platform_config.set_capabilities()
-    full_caps = DesiredCapabilities.CHROME.copy().update(caps)
+    full_caps = DesiredCapabilities.CHROME.copy()
+    full_caps.update(caps)
     driver = webdriver.Chrome(executable_path="/usr/bin/ChromeDriver", desired_capabilities=full_caps)
 
     return driver
+
+
+def local_phantom_driver(platform_config):
+    caps = platform_config.set_capabilities()
+    full_caps = DesiredCapabilities.PHANTOMJS.copy()
+    full_caps.update(caps)
+    return webdriver.PhantomJS(desired_capabilities=full_caps)
 
 
 def browser_stack_driver(platform_config):

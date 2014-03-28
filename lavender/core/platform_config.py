@@ -6,7 +6,7 @@ from utils import new_dict_if_none
 _advertised_configs = {}
 
 
-class PlatformConfig:
+class PlatformConfig(object):
 
     def __init__(self, caps=None):
         self._caps = new_dict_if_none(caps)
@@ -17,8 +17,14 @@ class PlatformConfig:
 
 
 class LocalChromeConfig(PlatformConfig):
-    def __init__(self, caps=None):
-        PlatformConfig.__init__(self, caps)
+
+    def set_capabilities(self, caps=None):
+        caps = new_dict_if_none(caps)
+        self.caps.update(caps)
+        return caps
+
+
+class LocalPhantomConfig(PlatformConfig):
 
     def set_capabilities(self, caps=None):
         caps = new_dict_if_none(caps)
@@ -28,7 +34,7 @@ class LocalChromeConfig(PlatformConfig):
 
 class BrowserPlatformConfig(PlatformConfig):
     def __init__(self, operating_system, browser, caps=None):
-        PlatformConfig.__init__(self, caps)
+        super(BrowserPlatformConfig, self).__init__(caps)
         self._operating_system = operating_system
         self._browser = browser
 
@@ -42,7 +48,7 @@ class BrowserPlatformConfig(PlatformConfig):
 
 class MobilePlatformConfig(PlatformConfig):
     def __init__(self, mobile_platform, mobile_device, caps=None):
-        PlatformConfig.__init__(self, caps)
+        super(MobilePlatformConfig, self).__init__(caps)
         self._mobile_platform = mobile_platform
         self._mobile_device = mobile_device
 
