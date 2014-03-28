@@ -29,9 +29,10 @@ def init():
 @task
 def test():
     """ Run all tests """
-    with prefix("workon lavender"):
-        pass
-
+    with prefix("source /home/deployhub/.virtualenvs/lavender/bin/activate"):
+        run("""
+             python -c 'import nose; nose.runmodule("lavender.test")'
+             """)
 
 @task
 def deploy():
