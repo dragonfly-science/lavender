@@ -37,5 +37,5 @@ def test():
 def deploy():
     """ Full deployment """
     put('dist/lavender-1.0-py27-none-any.whl', '/tmp')
-    with prefix("workon lavender"):
+    with prefix("source /home/deployhub/.virtualenvs/lavender/bin/activate"):
         run("pip install /tmp/lavender-1.0-py27-none-any.whl")
