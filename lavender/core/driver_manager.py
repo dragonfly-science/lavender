@@ -5,7 +5,7 @@ from selenium import webdriver
 
 import testing_session
 from browser_stack import BrowserStackAccountProperties
-from platform_config import LocalChromeConfig
+from platform_config import LocalChromeConfig, LocalPhantomConfig
 
 
 def local_chrome_driver(platform_config):
@@ -35,6 +35,8 @@ def driver_for_config(platform_config):
 
     if isinstance(platform_config, LocalChromeConfig):
         generator_fn = local_chrome_driver
+    elif isinstance(platform_config, LocalPhantomConfig):
+        generator_fn = local_phantom_driver
     else:
         generator_fn = browser_stack_driver
 
