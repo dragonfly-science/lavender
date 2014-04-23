@@ -27,7 +27,7 @@ def parse_args():
     global _arguments
     if _arguments is None:
         _arguments = _parser.parse_args()
-        app_args = ['--bs-username', '--bs-password', '--app-username', '--app-password', '--config']
+        app_args = ['--bs-name', '--bs-key', '--app-username', '--app-password', '--config']
 
         for name in _arguments.__dict__:
             if name != 'tests' and name != 'xunit_file':
@@ -44,14 +44,14 @@ def init(name):
     global _parser
     _parser = argparse.ArgumentParser(description=name)
     _parser.add_argument(
-        '--bs-username',
-        metavar='Username',
-        help='The username of the Browser Stack account under which tests should be run')
+        '--bs-name',
+        metavar='Name',
+        help='The name of the Browser Stack account under which tests should be run')
 
     _parser.add_argument(
-        '--bs-password',
-        metavar='Password',
-        help='The password corresponding to the Browser Stack username')
+        '--bs-key',
+        metavar='Key',
+        help='The api key corresponding to the Browser Stack name')
 
     configs = advertised_configs()
 
