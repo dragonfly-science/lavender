@@ -5,6 +5,7 @@ import nose
 from platform_config import advertise_config
 from utils import new_dict_if_none
 import call_arguments
+import sys
 
 
 class TestingSession:
@@ -60,8 +61,10 @@ class TestingSession:
 
         return config_name
 
-    def run(self):
+    def run(self, *args):
         call_arguments.parse_args()
+        for a in args:
+            sys.argv.append(a)
         nose.run()
 
 

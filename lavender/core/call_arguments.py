@@ -27,7 +27,7 @@ def parse_args():
     global _arguments
     if _arguments is None:
         _arguments = _parser.parse_args()
-        app_args = ['--bs-name', '--bs-key', '--app-username', '--app-password', '--config']
+        app_args = ['--bs-name', '--bs-key', '--app-username', '--app-password', '--config', '--host']
 
         for name in _arguments.__dict__:
             if name != 'tests' and name != 'xunit_file':
@@ -42,7 +42,7 @@ def parse_args():
 
 def init(name):
     global _parser
-    _parser = argparse.ArgumentParser(description=name)
+    _parser = argparse.ArgumentParser(description=name, argument_default=argparse.SUPPRESS)
     _parser.add_argument(
         '--bs-name',
         metavar='Name',

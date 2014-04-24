@@ -19,6 +19,13 @@ env.package_dir = os.path.join(env.local_dir, '..')
 # This is the name of the deb pacakage that will be built, and where it ends up
 env.package_name = 'exampleapp'
 
+try:
+    from ConfigParser import ConfigParser
+    secrets = ConfigParser()
+    secrets.readfp(open('secrets.cfg'))
+except:
+    secrets = None
+
 
 @task
 def init():
@@ -28,11 +35,15 @@ def init():
 
 @task
 def test():
+    if not secrets:
+        raise "Secrets config not found"
+    bskey = secrets.get('Browser stack', 'key')
+    bsname = secrets.get('Browser stack', 'name')
     """ Run all tests """
     with prefix("source /home/deployhub/.virtualenvs/lavender/bin/activate"):
-        run("""
-             python -c 'import nose; nose.runmodule("lavender.test")'
-             """)
+        with shell_env(BROWSER_STACK_KEY=bskey, BROWSER_STACK_NAME=bsname):
+            run("""python -c 'import nose; nose.runmodule("lavender.test")'""")
+
 
 @task
 def deploy():

@@ -25,7 +25,6 @@ class MyTestCase(unittest.TestCase):
         driver.quit()
 
     def test_browser_stack_driver(self):
-        raise SkipTest
         testing_session.new_session(
             "python_api",
             "0.1",
